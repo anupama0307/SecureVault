@@ -130,7 +130,7 @@ export default function StudentResourcesPage() {
                 ...tokenData,
                 token: tamperedToken,
                 isValid: null,
-                validationMessage: '⚠️ Token has been modified! Click Validate to detect tampering.',
+                validationMessage: '⚠️ Ciphertext has been modified! Click Validate to detect tampering.',
             });
         }
     };
